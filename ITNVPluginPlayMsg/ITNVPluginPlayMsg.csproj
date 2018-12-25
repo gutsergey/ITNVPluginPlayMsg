@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C435A3FE-1B6F-4306-86A5-950D3A72A50A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITNVPluginPlayMsg</RootNamespace>
+    <AssemblyName>ITNVPluginPlayMsg</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASGQEGeneral, Version=3.0.0.2, Culture=neutral, PublicKeyToken=9d07c45862dcb8d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEGeneral.dll</HintPath>
+    </Reference>
+    <Reference Include="ASGQEClientComm, Version=3.0.0.2, Culture=neutral, PublicKeyToken=9d07c45862dcb8d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGQEClientComm.dll</HintPath>
+    </Reference>
+    <Reference Include="ASMediaControllerInterface, Version=3.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASMediaControllerInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ASGUIHostInterface, Version=3.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASGUIHostInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ASXMLClient, Version=3.0.0.1, Culture=neutral, PublicKeyToken=ceec851097c82dd1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASXMLClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ASVoicePluginInterface, Version=3.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASVoicePluginInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPluginInterface, Version=3.0.0.1, Culture=neutral, PublicKeyToken=daa9665c92295121, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ASPluginInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TelephonyEventHandler.cs" />
+    <Compile Include="ToolStripButtonsPlayIVRMsg.cs" />
+    <Compile Include="Web References\ITNVPlayMsgManager\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Worker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ITNVPlayMsgManager\HuntInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ITNVPlayMsgManager\ITNVPlayMsgManager.wsdl" />
+    <None Include="Web References\ITNVPlayMsgManager\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StopPlay.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARW03RT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARW06RT.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhoneBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loudspeaker.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loudspeaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopPlay.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StopPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://172.16.5.215/ITNVPlayMsgManager/ITNVPlayMsgManager.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ITNVPlayMsgManager\</RelPath>
+      <UpdateFromURL>http://172.16.5.215/ITNVPlayMsgManager/ITNVPlayMsgManager.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ITNVPluginPlayMsg_ITNVPlayMsgManager_ITNVPlayMsgManager</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ITNVPlayMsgManager\ITNVPlayMsgManager.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NextNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NextNew1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="loudspeaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Beginning.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Close.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Play1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Beginning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

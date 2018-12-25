@@ -1,0 +1,10 @@
+D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ITNVPluginPlayMsg.dll.config
+D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ITNVPluginPlayMsg.dll
+D:\APPS\Avaya\Avaya Aura CC Elite Multichannel\Desktop\CC Elite Multichannel Desktop\ITNVPluginPlayMsg.pdb
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.Properties.Resources.resources
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.csproj.GenerateResource.Cache
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.dll
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.pdb
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.csproj.CoreCompileInputs.cache
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.csproj.CopyComplete
+D:\SG\VSProjects\ITNVPluginPlayMsg\ITNVPluginPlayMsg\ITNVPluginPlayMsg\obj\Debug\ITNVPluginPlayMsg.csprojAssemblyReference.cache
